@@ -1,0 +1,197 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+html{
+    font-size: 62.5%;
+
+/* Cabecera Menu */
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color:  #313131;
+}
+header{
+    width: 100vw;
+    height: 6vh;
+    background-color:  #313131;
+    font-size: 1.8rem;
+}
+.titulo{
+
+   
+
+}
+.title-nav{
+    position: absolute;
+   font-size: 5rem;
+   font-family: 'Bebas Neue', cursive;
+
+   color: cornsilk;
+}
+
+
+.container{
+
+    list-style: none;
+    
+
+}
+
+nav{
+
+    text-align: right;
+}
+
+.lista{
+    
+    display: inline-block;
+    margin: 20px;
+    margin-top: 25px;
+   
+}
+
+.lista a{
+    text-decoration: none;
+    padding: 10px;
+    color: cornsilk;
+}
+
+.lista a:hover{
+    color: crimson;
+}
+
+/* Principal */
+
+
+main{
+    /* background-color: dodgerblue; */
+    width: 100vw;
+    height: 90vh;
+}
+/* aside */
+aside{
+ 
+ 
+  background-color: crimson;
+    width: 20vw;
+    height: 94vh;
+  
+    border-bottom-right-radius: 40px;
+    
+}
+
+.sub-box{
+
+    width: 40vw;
+    height: 40vh;
+   
+    padding-top: 20px;
+    
+}
+.title{
+    font-size: 10rem;
+    text-align: start;
+    font-family: 'Bebas Neue', cursive;
+
+    color: cornsilk;
+    
+    
+
+}
+.box1{
+   
+
+    width: 20vw;
+    height: 40vh;
+    /* border: dotted black 2px;
+    background-color: darkgray; */
+  
+    
+    
+    
+}
+
+figure{
+    position: relative;
+    
+    top: 41px;
+    right: 10px;
+    margin: 20px;
+    display: block;
+}
+
+
+
+.main-principal{
+    position: relative;
+    float: right;
+    background-color: sienna;
+    width: 80vw;
+    height: 91.3vh;
+}
+
+
+main section p.video-titulo{
+    position: absolute; 
+    
+}
+
+.caja1{
+    display: inline-block;
+    
+    width: 400px;
+    height: 300px;
+    border: 2px black dotted;
+    
+
+}
+
+video{
+    position: a;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    filter: blur(5px);
+
+}
+
+footer{
+    color: #ffebcd;
+    font-size: 1.4em;
+    background-color:  #313131;
+ 
+    position:absolute;
+  right: 0;
+    list-style: none;
+    display: inline-block;
+    width: 80vw;
+    height: 2.7vh;
+    
+
+}
+/* .listpie li{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 25px 0;
+     list-style: none;
+     display: inline-block;
+} */
+
+.navfoot li{
+  
+    padding-left: 250px;
+    padding-right: 80px;
+    margin: 10px auto;
+     list-style: none;
+     display: inline-block;
+     
+ }
